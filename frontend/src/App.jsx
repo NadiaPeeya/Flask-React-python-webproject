@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 
 // Updated URL to use the port from runtime information
 export const BASE_URL = import.meta.env.MODE === "development" 
-  ? "http://localhost:50420/api" 
+  ? "http://localhost:50421/api" 
   : "/api";
 
 function App() {
